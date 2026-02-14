@@ -444,7 +444,7 @@ function startAutoPlay() {
                 const currentSlide = parseInt(container.dataset.currentSlide) || 0;
                 const nextSlide = (currentSlide + 1) % totalSlides;
                 goToSlide(container, nextSlide);
-            }, 6000); // Change slide every 6 seconds
+            }, 2000); // Change slide every 2 seconds
         }
     });
 }
